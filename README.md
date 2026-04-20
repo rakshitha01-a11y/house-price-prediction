@@ -101,6 +101,6 @@ Rakshitha V
 
 Data Science Student
 
-GitHub:[[ [Your Profile](https://github.com/rakshitha)](https://github.com/rakshitha01-a11y/Housepriceprediction) 
+GitHub:(https://github.com/rakshitha01-a11y/Housepriceprediction) 
 
 Project:https://github.com/rakshitha01-a11y/house-price-prediction/blob/main/Copy_of_Welcome_To_Colab.ipynb?short_path=f10f4ab
