@@ -84,6 +84,7 @@ Mean Squared Error (MSE): A metric that penalizes larger prediction errors.
 Winning Model: Based on our tests, Random Forest (or Gradient Boosting) typically provides the highest R² score (around 0.88 - 0.92).
 
 Visual Proof: A final graph showing how closely our predictions follow the actual market prices.
+
 👩‍💻 Author
 
 Rakshitha V
