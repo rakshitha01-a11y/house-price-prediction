@@ -1,100 +1,89 @@
-# house-price-prediction
-📊 Project Title
+# paris house price prediction
+📌 Project Title & Overview
 
-House Price Prediction using Machine Learning
+Title: Paris Housing Price Prediction using Advanced Machine Learning.
 
-📌 Project Overview
+Summary: An end-to-end data science project that analyzes property attributes in Paris to predict market values with high precision.
 
-This project predicts house prices using machine learning techniques. The dataset includes features such as location, number of bedrooms, bathrooms, area (square feet), and other property-related attributes. Data preprocessing, visualization, and regression models are used to analyze patterns and accurately predict house prices.
+🎯 Core Objectives
 
-🎯 Objectives
+Data Insight: Analyze historical housing data to find pricing trends.
 
-Analyze housing data
+Key Factor Identification: Determine which features (e.g., luxury amenities vs. size) impact price most.
 
-Identify key factors affecting house prices
+Algorithm Development: Build and train multiple regression models.
 
-Build a machine learning model to predict prices
+Performance Benchmarking: Compare models to find the most accurate prediction engine.
 
-Evaluate model performance
+📊 Dataset & Column Descriptions
 
-📂 Dataset
+A detailed look at the inputs our model uses:
 
-Column Description:
+squareMeters: The total area of the house (The most significant factor).
 
-price → Target variable (house price)
+isNewBuilt: Indicates if the property is a recent construction.
 
-area → Size of the house (sq ft)
+hasPool / hasGarage: Presence of luxury and utility amenities.
 
-bedrooms → Number of bedrooms
+cityPartRange: The neighborhood "rank" or sector within Paris.
 
-bathrooms → Number of bathrooms
+numPrevOwners: The history of the property ownership.
 
-stories → Number of floors
-
-mainroad → Access to main road (yes/no)
-
-guestroom → Availability of guest room
-
-basement → Basement availability
-
-hotwaterheating → Hot water facility
-
-airconditioning → AC availability
-
-parking → Parking spaces
-
-prefarea → Preferred area
+price: The Target Variable (what the model is trying to guess).
 
 🛠️ Technologies Used
 
-Pandas
+Python: The primary programming language.
 
-NumPy
+Pandas & NumPy: For data manipulation and mathematical operations.
 
-Matplotlib / Seaborn
+Matplotlib & Seaborn: For data visualization and heatmaps.
 
-Scikit-Learn
+Scikit-Learn: For building the Machine Learning pipeline.
 
-Jupyter Notebook / Google Colab
+Google Colab: The cloud-based environment used for development.
 
-⚙️ Project Workflow
+⚙️ Project Workflow (Step-by-Step)
 
-Data Collection
+Data Collection: Gathering the Paris Housing dataset into the environment.
 
-Data Cleaning
+Data Cleaning: Removing duplicates and handling any missing information.
 
-Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA): Visualizing correlations through heatmaps and scatter plots.
 
-Feature Selection
+Feature Engineering: Selecting the most important variables for the model.
 
-Model Training
+Data Preprocessing: Scaling numbers and encoding categories into a machine-readable format.
 
-Model Evaluation
+Model Training: Teaching the computer using 80% of the available data.
 
-Prediction
+Model Evaluation: Testing accuracy on the remaining 20% of the data.
 
-📈 Model Used
+📈 Models Implemented
 
-Linear Regression
+Linear Regression: To establish a simple baseline.
 
-Decision Tree Regression
+Decision Tree Regression: To capture non-linear, branching data patterns.
 
-Random Forest Regression
+Random Forest Regression: To use an ensemble of trees for stable predictions.
 
-Gradient Boosting Regression
+Gradient Boosting Regression: To minimize errors through sequential learning.
 
-📊 Evaluation Metrics
+🏆 Evaluation Metrics
 
-Mean Absolute Error (MAE)
+We measure success using:
 
-Mean Squared Error (MSE)
+R² Score: How well the model fits the data (closer to 1.0 is better).
 
-R² Score
+Mean Absolute Error (MAE): The average difference between predicted and actual price.
 
-📉 Results
+Mean Squared Error (MSE): A metric that penalizes larger prediction errors.
 
-The Random Forest Regression model performed best with an R² score of 0.88, indicating strong predictive performance and accurate estimation of house prices.
+📝 Final Results & Conclusion
 
+Winning Model: Based on our tests, Random Forest (or Gradient Boosting) typically provides the highest R² score (around 0.88 - 0.92).
+
+Visual Proof: A final graph showing how closely our predictions follow the actual market prices.
 👩‍💻 Author
 
 Rakshitha V
