@@ -1,98 +1,199 @@
-# paris house price prediction
-📌 Project Title & Overview
+# 🏠 House Price Prediction using Machine Learning
 
-Title: Paris Housing Price Prediction using Advanced Machine Learning.
+## 📌 Project Overview
 
-Summary: An end-to-end data science project that analyzes property attributes in Paris to predict market values with high precision.
+This project focuses on predicting house prices using Machine Learning techniques. The objective is to analyze various housing features such as living area, number of rooms, year built, and other property-related attributes to estimate the selling price of a house accurately.
 
-🎯 Core Objectives
+The project follows a complete Machine Learning workflow, including data preprocessing, exploratory data analysis, visualization, model training, evaluation, and prediction.
 
-Data Insight: Analyze historical housing data to find pricing trends.
+---
 
-Key Factor Identification: Determine which features (e.g., luxury amenities vs. size) impact price most.
+## 🎯 Objectives
 
-Algorithm Development: Build and train multiple regression models.
+* Analyze housing market data and identify pricing patterns.
+* Understand the relationship between house features and sale price.
+* Build Machine Learning models to predict house prices.
+* Compare different algorithms and evaluate their performance.
+* Generate meaningful visualizations for data-driven insights.
 
-Performance Benchmarking: Compare models to find the most accurate prediction engine.
+---
 
-📊 Dataset & Column Descriptions
+## 📊 Dataset Description
 
-A detailed look at the inputs our model uses:
+The dataset contains various housing attributes used for price prediction.
 
-squareMeters: The total area of the house (The most significant factor).
+### Key Features
 
-isNewBuilt: Indicates if the property is a recent construction.
+* **GrLivArea** – Above ground living area (square feet)
+* **TotRmsAbvGrd** – Total rooms above ground
+* **YearBuilt** – Construction year of the property
+* **OverallQual** – Overall quality rating
+* **GarageCars** – Garage capacity
+* **FullBath** – Number of full bathrooms
+* **BedroomAbvGr** – Number of bedrooms above ground
+* **SalePrice** – Target Variable
 
-hasPool / hasGarage: Presence of luxury and utility amenities.
+---
 
-cityPartRange: The neighborhood "rank" or sector within Paris.
+## 🛠️ Technologies Used
 
-numPrevOwners: The history of the property ownership.
+### Programming Language
 
-price: The Target Variable (what the model is trying to guess).
+* Python
 
-🛠️ Technologies Used
+### Libraries
 
-Python: The primary programming language.
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Scikit-Learn
 
-Pandas & NumPy: For data manipulation and mathematical operations.
+### Development Environment
 
-Matplotlib & Seaborn: For data visualization and heatmaps.
+* Google Colab
+* Jupyter Notebook
 
-Scikit-Learn: For building the Machine Learning pipeline.
+### Version Control
 
-Google Colab: The cloud-based environment used for development.
+* Git
+* GitHub
 
-⚙️ Project Workflow (Step-by-Step)
+---
 
-Data Collection: Gathering the Paris Housing dataset into the environment.
+## ⚙️ Project Workflow
 
-Data Cleaning: Removing duplicates and handling any missing information.
+### 1. Data Collection
 
-Exploratory Data Analysis (EDA): Visualizing correlations through heatmaps and scatter plots.
+* Imported housing dataset into Google Colab.
 
-Feature Engineering: Selecting the most important variables for the model.
+### 2. Data Preprocessing
 
-Data Preprocessing: Scaling numbers and encoding categories into a machine-readable format.
+* Handling missing values.
+* Removing duplicates.
+* Feature selection.
+* Data cleaning.
 
-Model Training: Teaching the computer using 80% of the available data.
+### 3. Exploratory Data Analysis (EDA)
 
-Model Evaluation: Testing accuracy on the remaining 20% of the data.
+* Correlation Analysis
+* Distribution Analysis
+* Outlier Detection
+* Feature Relationship Analysis
 
-📈 Models Implemented
+### 4. Data Visualization
 
-Linear Regression: To establish a simple baseline.
+Generated multiple visualizations including:
 
-Decision Tree Regression: To capture non-linear, branching data patterns.
+* Heatmaps
+* KDE Plots
+* Box Plots
+* Violin Plots
+* Pair Plots
+* Learning Curves
+* Interactive 3D Scatter Plot
+* Interactive 3D Bubble Plot
 
-Random Forest Regression: To use an ensemble of trees for stable predictions.
+### 5. Model Training
 
-Gradient Boosting Regression: To minimize errors through sequential learning.
+Implemented multiple Machine Learning algorithms:
 
-🏆 Evaluation Metrics
+* Linear Regression
+* Decision Tree Regressor
+* Random Forest Regressor
+* Gradient Boosting Regressor
 
-We measure success using:
+### 6. Model Evaluation
 
-R² Score: How well the model fits the data (closer to 1.0 is better).
+Performance was evaluated using:
 
-Mean Absolute Error (MAE): The average difference between predicted and actual price.
+* R² Score
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
 
-Mean Squared Error (MSE): A metric that penalizes larger prediction errors.
+---
 
-📝 Final Results & Conclusion
+## 📈 Visualizations Included
 
-Winning Model: Based on our tests, Random Forest (or Gradient Boosting) typically provides the highest R² score (around 0.88 - 0.92).
+### Data Analysis
 
-Visual Proof: A final graph showing how closely our predictions follow the actual market prices.
+* Correlation Heatmap
+* KDE Distribution Plots
+* Violin Plot Analysis
+* Box Plot Analysis
 
-👩‍💻 Author
+### Machine Learning Visualizations
 
-Rakshitha V
+* Feature Importance
+* Learning Curve
+* Prediction Error Plot
+* Actual vs Predicted Price Plot
 
-Data Science Student
+### Interactive Visualizations
 
-GitHub:[https://github.com/rakshitha01-a11y/house-price-prediction/blob/main/README.md]
+* 3D Scatter Plot
+* 3D Bubble Plot
+* Interactive HTML Visualizations using Plotly
 
-[https://github.com/rakshitha01-a11y/house-price-prediction/blob/main/Paris_house_price_prediction.ipynb]
+---
+
+## 🏆 Results
+
+The Machine Learning models successfully learned housing price patterns from historical data and generated accurate predictions.
+
+Key outcomes:
+
+* Identified the most influential housing features.
+* Built predictive models with strong performance.
+* Generated interactive visualizations for better understanding.
+* Created a complete end-to-end Machine Learning workflow.
+
+---
+
+## 📂 Project Files
+
+* HousePricePrediction.ipynb
+* HousePricePrediction.xlsx
+* README.md
+* 3D_HousePrice_Visualization.html
+
+---
+
+## 🚀 Future Enhancements
+
+* Hyperparameter Tuning
+* Advanced Ensemble Models
+* Model Deployment using Streamlit
+* Real-Time House Price Prediction Application
+* Cloud Deployment using Google Cloud Platform (GCP)
+
+---
+
+## 👩‍💻 Author
+
+### Rakshitha V
+
+**B.Sc. Computer Science with Data Science Student**
+
+Machine Learning Enthusiast | Data Science Learner
+
+GitHub:
+https://github.com/rakshitha01-a11y
+
+Project Repository:
+
+
+---
+
+## ⭐ Acknowledgements
+
+* Scikit-Learn Documentation
+* Pandas Documentation
+* Plotly Documentation
+* Kaggle Datasets
+* Google Colab
+* GitHub
 
 [https://github.com/rakshitha01-a11y/house-price-prediction/blob/main/ParisHousing.csv]
